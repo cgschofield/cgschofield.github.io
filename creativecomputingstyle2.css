@@ -1,0 +1,14 @@
+
+
+h1:hover {
+color: white;
+transition: ease, 2s;
+font-size: 10px;
+}
+
+a{
+text-decoration:none;
+color:red;
+}
+
+

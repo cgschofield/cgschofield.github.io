@@ -1,2 +1,0 @@
-cgschofield.github.io
-=====================
