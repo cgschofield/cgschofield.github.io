@@ -36,12 +36,12 @@ transition: ease, 2s;
 }
 
 img {
-  top:0px;
+  top:10px;
   right:0px;
   position: fixed;
   padding:1em;
-  
-  
+  height:30px;
+  width:50px;
 }
 
 
