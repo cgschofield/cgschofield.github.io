@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link href="americandreamstyle.css" rel="stylesheet">
+	<script type="text/javascript" src="moveobj.js"> </script>
+<script type="text/javascript">
+
+
+
+var flyimage1, flyimage2, flyimage3
+
+function pagestart(){
+//Step 2: Using the same variable names as 1), add or delete more of the below lines (60=width, height=80 of image):
+ flyimage1=new Chip("flyimage1",47,68);
+ flyimage2=new Chip("flyimage2",47,68);
+ flyimage3=new Chip("flyimage3",47,68);
+
+
+//Step 3: Using the same variable names as 1), add or delete more of the below lines:
+movechip("flyimage1");
+movechip("flyimage2");
+movechip("flyimage3");
+
+}
+
+if (window.addEventListener)
+window.addEventListener("load", pagestart, false)
+else if (window.attachEvent)
+window.attachEvent("onload", pagestart)
+else if (document.getElementById)
+window.onload=pagestart
+
+</script>
+		<title>THE AMERICAN DREAM</title>
+	</head>
+	<body>
+
+
+<DIV ID="flyimage1" STYLE="position:absolute; left: -500px; width:47; height:68;">
+<IMG SRC="wife.jpg" BORDER=0>
+</DIV>
+
+<DIV ID="flyimage2" STYLE="position:absolute; left: -500px; width:47; height:68;">
+<IMG SRC="baby.gif" BORDER=0>
+</DIV>
+
+<DIV ID="flyimage3" STYLE="position:absolute; left: -500px; width:47; height:68;">
+<IMG SRC="house.jpg" BORDER=0>
+</DIV>
+	A few years pass and now you are married to a beautiful woman, and have two beautiful children! Your life is uncannily similar to your fathers. 
+	You moved to a suburb of Connecticut, and you commute to Manhattan every day. 
+	<br>
+	<br>
+	<a href= theamericandream6.html>Start Working.</a>
+	</body>
+</html>
